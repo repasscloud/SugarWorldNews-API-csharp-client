@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
   <metadata>
-    <id>SugarWorldNewsAPI</id>
+    <id>SugarWorldNewsApiClient</id>
     <version>0.0.1</version>
     <title>SugarNews API Client</title>
     <authors>RePass Cloud Pty Ltd</authors>
@@ -12,7 +12,7 @@
     <description>SugarWorldNews API is a simple .NET HTTP REST API for searching and retrieving live articles from all over the web from https://api.worldnewsapi.com/</description>
     <releaseNotes>Initial publication</releaseNotes>
     <copyright>Copyright 2023 RePass Cloud Pty Ltd</copyright>
-    <tags>newsapi sugarnews sugarnewsapi api</tags>
+    <tags>newsapi sugarworldnews sugarworldnewsapi api worldnews world news sugarworld</tags>
   </metadata>
   <files>
     <file src="icon.png" target="images\" />
