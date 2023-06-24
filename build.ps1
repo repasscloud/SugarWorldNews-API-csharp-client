@@ -9,7 +9,7 @@ $versionInfoPath = "${PSScriptRoot}/version_info"
 $versionInfoContent = Get-Content -Path $versionInfoPath
 
 # Step 4: Replace the version in the "SugarWorldNewsAPI.nuspec" file
-$nuspecFilePath = "${PSScriptRoot}/SugarWorldNewsAPI.nuspec"
+$nuspecFilePath = "${PSScriptRoot}/SugarWorldNewsApiClient.nuspec"
 $nuspecContent = Get-Content -Path $nuspecFilePath
 
 $versionPattern = "<version>(.*?)<\/version>"
