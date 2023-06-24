@@ -25,7 +25,7 @@ dotnet build --configuration Release
 dotnet pack --configuration Release --include-symbols
 
 # Step 7: Produce the nuget package
-nuget pack SugarWorldNewsAPI.csproj -Properties Configuration=Release
+nuget pack SugarWorldNewsAPIClient.csproj -Properties Configuration=Release
 
 # Step 8: Update git repo
 git add .
